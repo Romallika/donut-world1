@@ -1,0 +1,203 @@
+*{margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* @media (orinentation: landscape){ 
+    Позицианирование*/
+    body{
+        background-color: rgba(51, 51, 51, 1);
+    }
+    header{
+        height: 151px;
+        display: flex;
+        flex-direction: row;
+    }
+    header .main-container, .contry{
+        height: 151px;
+        background-color: rgba(51, 51, 51, 1);
+    }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+    header .country{
+        display: flex;
+        justify-content: center;
+        width: 190px;
+        padding-top: 60px;
+        border: 2px solid white;
+    }
+    
+    header a{
+        margin: 40px;
+        text-decoration: none;
+        font-size: larger;
+        color: white;
+        margin-top: 50px;
+    }
+    #enter{
+        margin-left: 500px;
+    }
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        width: 190px;
+        height:3000px;
+        float: left;
+        background-color: rgba(51, 51, 51, 1);
+        border: 2px solid white;
+    }
+    .left-side a{
+        
+        margin: 30px 20px;
+        font-size: large;
+        color: white;
+    }
+    .content{
+        display: flex;
+        padding: 30px 50px 30px 50px;
+    }
+    .course-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .line1, .line2{
+        display: flex;
+        flex-direction: column;
+    }
+    .course1, .course2, .course3, .course4{
+        width: 383px;
+        height: 109px;
+        background-color: rgba(217, 217, 217, 1);
+        color: black;
+        border: 1px solid black;
+    }
+    .course-main{
+        width: 792px;
+        height: 109px;
+        background-color: rgba(217, 217, 217, 1);
+        color: black;
+        border: 1px solid black;
+    }
+    .graf{
+        width: 792px;
+        height: 331px;
+        background-color: rgba(217, 217, 217, 1);
+        color: black;
+        border: 1px solid black;
+    }
+    /*Визуальные елементы*/
+    .course1:hover, 
+    .course2:hover, 
+    .course3:hover, 
+    .course4:hover, 
+    .course-main:hover, 
+    .graf:hover{
+        box-shadow: 0px 0px 3px;
+        cursor: pointer;
+        border: 1px solid lightgreen;
+    }
+    .course1:active,
+    .course2:active,
+    .course3:active,
+    .course4:active,
+    .course-main:active,
+    .graf:active{
+        background-color: rgb(151, 151, 151);
+    }
+    /* регистрационная форма */
+    .form1{
+        display: flex;
+        margin-left: 500px;
+    }
+    .registration-form{
+        width: 400px;
+        padding: 100px;
+        text-align: center;
+        background-color: rgb(151, 151, 151);;
+        color: white;
+        font-size: x-large;
+    }
+    .registration-form input{
+        margin-left: 20px;
+        width: 50%;
+        height: 25px;
+    }
+
+    .submit-btn-send{
+        border-radius: 5px;
+        padding: 15px 130px;
+        border: .5px solid black;
+        background-color: rgb(151, 151, 151);;
+        color: white;
+        font-size: large;
+    }
+
+    .submit-btn-log{
+        border-radius: 5px;
+        padding: 15px 190px;
+        border: .5px solid black;
+        background-color: rgb(151, 151, 151);
+        color: white;
+        font-size: large;
+    }
+
+    .submit-btn-log:hover,
+    .submit-btn-send:hover{
+        border: 1px solid white;
+        outline: none;
+    }
+    .submit-btn-log:active,
+    .submit-btn-send:active {
+        box-shadow: 0px 0px 5px;
+        border: 1px solid black;
+    }
+
+    .container {
+        width: 100vw; height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        perspective: 400px;
+    }
+
+    .block {
+        height: 60vh;
+        aspect-ratio: 6 / 4;
+        border-radius: 10px;
+        margin: 3em;
+        background: #eaeaea;
+        box-sizing: border-box;
+    }
+
+    .second {
+        transform-style: flat;
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1XwjXXsO7aW_bUEY4UBgHODU4ngdwKqURNQ&s);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .inner {
+        width: 100%; height: 100%;
+        backdrop-filter: blur(7px);
+        border-radius: 10px;
+        display: flex;
+        color: white;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .inner p {
+        padding: 3em;
+    }
+
+    .shadow {
+        position: absolute;
+        height: 40vh;
+        aspect-ratio: 3 / 4;
+        background: #cdcdcd;
+        box-shadow: 0 0 50px 70px #cdcdcd;
+        z-index: -1;
+    }
+/* } */
